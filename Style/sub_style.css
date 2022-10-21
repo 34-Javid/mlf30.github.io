@@ -1,0 +1,47 @@
+.center{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    /* grid-template-rows: 100px auto; */
+
+}
+h3{
+    color: aliceblue;
+}
+
+.contact1{
+    /* background-color:red; */
+    grid-column:2/4 ;
+    justify-content: center;
+    align-items: center;
+    width:550px;
+    height:400px;
+    margin-left: 30px;
+    
+}
+.contact2{
+    /* background-color:rgb(219, 230, 220); */
+    grid-column:3/6 ;
+
+    /* width:550px;
+    height:400px; */
+   
+
+}
+.text{
+    background-color: aliceblue;
+}
+.comment{
+    color: rgb(233, 222, 222);
+    font-size: 20px;
+
+}
+.submit5{
+    width:90px;
+    height:20px;
+    background-color: rgb(174, 195, 195);
+    border-top-left-radius: 20px 20px;
+    border-bottom-right-radius: 20px 20px;
+    color:rgb(12, 5, 75);
+    font-size: 10px;
+    box-shadow: 1px 1px 5px 5px;
+}

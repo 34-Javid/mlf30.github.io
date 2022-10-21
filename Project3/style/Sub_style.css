@@ -1,0 +1,33 @@
+
+
+.container2{
+    
+display:grid;
+grid-template-columns:repeat(4, 1fr);
+gap: 20px;
+grid-auto-flow: dense;
+margin-top: 30px;
+margin-left: 300px;
+margin-right: 300px;
+
+}
+.container2> div img{
+    width:100%;
+    height:100%;
+    background: #cef;
+    border: 5px solid;
+    border-image: 40;
+}
+
+.Animal1{
+    grid-column: auto / span 1;
+     
+}
+.Animal2{
+    grid-row: auto/ span 3;
+
+}
+.Animal3{
+    grid-column: auto / span 3;
+    grid-row: auto/ span 3;
+}

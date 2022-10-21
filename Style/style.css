@@ -1,0 +1,247 @@
+body{
+    background-color: rgb(184, 179, 179);
+}
+.container>div{
+    padding: 0px; 
+    color:rgb(242, 234, 234);
+}
+
+.container {
+    display: grid;
+    grid-template-columns:repeat(6 , 1fr);
+    grid-template-rows: 100px auto;
+    /* gap:5px; */
+  
+}
+
+
+.header{
+    /* background-color: red; */
+    grid-column: 1/-1;
+   
+}
+.h_img{
+    width: 100%;
+    height:350px;
+    box-shadow: 0px 10px 5px 0px;
+
+}
+.profile{
+    /* background-color: rgb(112, 83, 156); */
+    grid-column:2/3;
+    
+   
+}
+.profile_img{
+    width: 120px;
+    height: 120px;
+    border-radius:50px;
+    margin-top:220px;
+    
+}
+.menu{
+    /* background-color: rgb(141, 131, 131); */
+    grid-column:1/-1;
+}
+.menu{
+
+    /* background-color:grey; */
+    grid-column:1/-1;
+    font-size: 50px;
+  
+
+   
+}
+ul {  
+     font-size: 30px;     
+ }
+
+#navbar1  {
+    display: inline;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#navbar2  {
+    display: inline;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#navbar3  {
+    display: inline;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#navbar4 {
+    display: inline;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#navbar5  {
+    display: inline;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#navbar1  {
+    display: inline;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+} 
+li > a {
+   
+    color:rgb(224, 217, 217);
+    text-decoration: none;
+    margin-right:  5px;
+    padding-left:25px;
+}
+
+.searcha {
+    border-top-left-radius: 20px 20px;
+    border-bottom-right-radius: 20px 20px;
+    font-size:20px; 
+    height: 50px;
+    width: 150px;
+    padding-left:150px;
+    order: 2;
+    
+    /* background-color: rgb(186, 163, 163); */
+    
+  }
+
+  .Twitter{
+    font-size:25px;
+    color:blue;
+    padding: 10px;
+  
+    
+}
+.Facebook{
+    font-size:25px;
+    color:blue;
+   
+}
+.LinkedIn{
+    font-size:25px;
+    color:blue;
+    padding: 10px;
+   
+}
+.youtube{
+    font-size:25px;
+    padding: 10px;
+  
+}
+a:hover{
+    color:blue;
+    padding: 10px;
+}
+#youtube:hover{
+    color:red;
+    
+}
+.search{
+    justify-content:center;
+    align-items:center;
+    display:flex;
+}
+
+
+/* .search{
+    background-color: rgb(80, 187, 114);
+} */
+.pictuer{
+    /* background-color: rgb(220, 18, 183); */
+    grid-column:2/3;
+
+}
+.picture_me{
+    width: 250px;
+    height:330px;
+    border-top-left-radius: 20px 20px;
+   
+    padding-right: 50px;
+   
+    
+
+
+}
+.content{
+    /* background-color: rgb(174, 158, 228); */
+    grid-column:3/6;
+   
+
+}
+.about_me{
+    color:rgb(98, 88, 100);
+    font-size :30px;
+    font-weight:bolder;
+   
+    
+}
+.first_text{
+    text-align: justify;
+    line-height: 40px;
+    margin-bottom: 0px;
+    font-size: 20px;
+
+
+}
+
+.hobby{
+    /* background-color: rgb(108, 222, 21); */
+    grid-column:2/6;
+    margin: 0px;
+    padding: 0px;
+    text-align: justify;
+    line-height: 40px;
+    font-size: 20px;
+   
+
+}
+.flowers{
+    /* background-color: rgb(31, 206, 215); */
+    grid-column:2/6;
+    justify-content:center;
+    align-items:center;
+    text-align: center;
+
+}
+
+.follow{
+    justify-content:center;
+    align-items:center;
+    text-align: center;
+    color:rgb(48, 50, 53);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+.subscribe{
+    width:250px;
+    height:20px;
+    background-color: rgb(168, 182, 182);
+    border-top-left-radius: 12px 20px;
+    border-bottom-right-radius: 20px 20px;
+    color:rgb(12, 5, 75);
+    font-size: 20px;
+    box-shadow: 1px 1px 5px 5px;
+}
+#submit{
+    width:90px;
+    height:20px;
+    background-color: rgb(174, 195, 195);
+    border-top-left-radius: 20px 20px;
+    border-bottom-right-radius: 20px 20px;
+    color:rgb(12, 5, 75);
+    font-size: 10px;
+    box-shadow: 1px 1px 5px 5px;
+  
+  
+}
+
+.footer{
+
+    grid-column:2/6;
+  }
+.footer{
+    justify-content:center;
+    align-items:center;
+    text-align: center;
+    color:aliceblue;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 10px;
+
+    
+}

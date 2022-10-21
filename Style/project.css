@@ -1,0 +1,46 @@
+.projectall{
+display:grid;
+grid-template-columns:repeat(6, 1fr)
+
+}
+
+.projectone{
+    
+    /* background-color: red; */
+   grid-column: 2/6;
+   text-align:center;
+
+    
+}
+.text_title{
+    text-align:center;
+    color: rgb(241, 233, 233);
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+p{
+    font-size: 34px;
+    color: rgb(46, 41, 41);
+}
+.Project_img{
+    width:1000px;
+    border-radius:10%;
+    box-shadow: 5px 10px 5px #dae78f;
+}
+    
+
+.a_link{
+    font-size:20px;
+}
+.projecttwo{
+   grid-column: 2/6;
+   /* background-color: blue; */
+   text-align:center;
+
+
+}
+.projectthree{
+   grid-column: 2/6;
+   /* background-color: green; */
+   text-align:center;
+
+}
